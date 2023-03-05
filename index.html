@@ -53,6 +53,26 @@ font-size: medium;
   width: 400px;
 }
 
+.button {
+  background-color: #f1465a;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
     </style>
   </head>
 <!-- Google tag (gtag.js) -->
@@ -75,10 +95,9 @@ font-size: medium;
   
 <p>Back me on Patreon to try it out for yourself.</p>
 
-<div style="color: white !important; background-color: green !important;">
-<a href="https://www.patreon.com/bePatron?u=89221784" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<div class="button-container">
+<a href="https://www.patreon.com/bePatron?u=89221784"><button class="button">Become a Patron</button></a>
 </div>
-
 <p>Check out my Instagram for gameplay videos.</p>
 <a href="https://www.instagram.com/jlrugbynz/" class="center">
 <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
