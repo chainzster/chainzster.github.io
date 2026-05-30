@@ -1,0 +1,47 @@
+# Allow Claude Code CLI tool
+User-agent: claude-code
+Allow: /
+
+# Allow Claude's web fetch tool
+User-agent: Claude-User
+Allow: /
+
+# Allow Claude's search indexing bot
+User-agent: Claude-SearchBot
+Allow: /
+
+# Allow Anthropic's primary model training crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Allow generic/legacy Anthropic crawlers
+User-agent: anthropic-ai
+Allow: /
+
+# Allow OpenAI's training crawler
+User-agent: GPTBot
+Allow: /
+
+# Allow ChatGPT's browsing/fetch tool
+User-agent: ChatGPT-User
+Allow: /
+
+# Allow OpenAI's search indexing bot
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Google's Gemini/Bard crawler
+User-agent: Google-Extended
+Allow: /
+
+# Allow Meta's AI crawler
+User-agent: meta-externalagent
+Allow: /
+
+# Allow Perplexity's crawler
+User-agent: PerplexityBot
+Allow: /
+
+# Default: allow all other bots
+User-agent: *
+Allow: /
