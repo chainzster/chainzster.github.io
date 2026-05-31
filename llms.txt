@@ -1,0 +1,11 @@
+# Jonah Lomu Rugby Mod (JLR)
+
+> JLR is an updated version of the classic Jonah Lomu Rugby video game for Windows 64-bit.
+
+## Site Overview
+
+- Homepage: https://jlr.nz/ — Introduction and download call-to-action
+- History: https://jlr.nz/history.html — Background and history of the mod
+- Download: https://jlr.nz/download.html — Download the Windows 64-bit installer
+- Support: https://jlr.nz/support.html — Help and troubleshooting
+- Contact: https://jlr.nz/contact.html — Contact the team
